@@ -47,8 +47,13 @@ The `Debug/` build output is not tracked; regenerate it by building.
 Raw captures larger than 2 MB are not stored in the repository. See
 [`data/LARGE_FILES.md`](data/LARGE_FILES.md) for the list.
 
+## License
+
+- Code (firmware, MATLAB scripts, notebook): [MIT](LICENSE).
+- Lab report, measurements, figures and spreadsheets: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- STM32 HAL/CMSIS drivers in `firmware/Drivers` keep their original STMicroelectronics/Arm licenses.
+
 ## Notes
 
 - Identifiers in the firmware (`*_iniz`, `ricezione`, ...) are still Italian; comments are in English.
 - The MATLAB scripts and the report are in Italian.
-- STM32 HAL/CMSIS drivers in `firmware/Drivers` are © STMicroelectronics and keep their own licenses.
