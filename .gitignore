@@ -1,0 +1,21 @@
+# STM32CubeIDE / Eclipse build output and workspace state
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.map
+*.list
+*.bin
+*.hex
+.metadata/
+.settings/
+*.launch.bak
+
+# Raw captures over 2 MB are not stored in the repo (see data/LARGE_FILES.md)
+
+# Archives and OS noise
+*.zip
+.DS_Store
